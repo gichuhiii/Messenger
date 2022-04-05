@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ChatController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
