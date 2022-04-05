@@ -30,7 +30,7 @@
 
         <form method="POST" class="login-form" action="{{ route("login") }}">
             @csrf
-            <input type="text" placeholder=" Enter username / email"/>
+            <input type="text" name="email" placeholder="Enter username / email"/>
             <input type="password" name="password" placeholder="Enter Password"/>
             <button type="submit">Login</button>
             <p class="message">Not Registered? <a href="#">Register</a></p>
