@@ -1,7 +1,8 @@
 <?php
-use App\Http\Controllers\HomeController;
-use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
-Route::get('/chat',[HomeController::class,'chat']);
+Auth::routes();
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
