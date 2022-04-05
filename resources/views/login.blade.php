@@ -14,8 +14,8 @@
                     <input type="text" name="username" placeholder="Enter UserName"/>
                     <input type="text" name="gender" placeholder="Input Gender"/>
                     <input type="text" name="psw" placeholder="Enter Your Password"/>
-                    <label>Upload Profile Picture</label>
-                    <input type="file" name="image">
+                    <!-- <label>Upload Profile Picture</label> -->
+                    <!-- <input type="file" name="image"> -->
                     
                     <button>Create Account</button>
                     <p class="message">Already Registered? <a href="#">Login</a></p>
