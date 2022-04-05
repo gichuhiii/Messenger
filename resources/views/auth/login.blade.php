@@ -20,7 +20,7 @@
             <input type="text" name="email" value="{{ old("email") }}" placeholder="Enter Email Address"/>
             <input type="text" name="username" value="{{ old("username") }}" placeholder="Enter UserName"/>
             <input type="text" name="gender" placeholder="Input Gender"/>
-            <input type="text" name="password" placeholder="Enter Your Password"/>
+            <input type="password" name="password" placeholder="Enter Your Password"/>
             <!-- <label>Upload Profile Picture</label> -->
             <!-- <input type="file" name="image"> -->
 
