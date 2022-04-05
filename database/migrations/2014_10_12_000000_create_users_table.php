@@ -17,9 +17,9 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('gender');
+            $table->string('gender')->nullable();
             $table->string('username')->unique()->nullable();
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->string('status', 20)->default(Status::OFFLINE->value);
             $table->timestamp('last_seen_at')->default(now());
             $table->string('email')->unique();

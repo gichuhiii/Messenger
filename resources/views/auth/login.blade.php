@@ -17,8 +17,8 @@
         <form method="POST" class="register-form" action="{{ route("register") }}">
             @csrf
             <input type="text" name="name" placeholder="Enter Full Names"/>
-            <input type="text" name="email" placeholder="Enter Email Address"/>
-            <input type="text" name="username" placeholder="Enter UserName"/>
+            <input type="text" name="email" value="{{ old("email") }}" placeholder="Enter Email Address"/>
+            <input type="text" name="username" value="{{ old("username") }}" placeholder="Enter UserName"/>
             <input type="text" name="gender" placeholder="Input Gender"/>
             <input type="text" name="password" placeholder="Enter Your Password"/>
             <!-- <label>Upload Profile Picture</label> -->
@@ -30,7 +30,7 @@
 
         <form method="POST" class="login-form" action="{{ route("login") }}">
             @csrf
-            <input type="text" name="email" placeholder="Enter username / email"/>
+            <input type="text" name="email" value="{{ old("email") }}" placeholder="Enter username / email"/>
             <input type="password" name="password" placeholder="Enter Password"/>
             <button type="submit">Login</button>
             <p class="message">Not Registered? <a href="#">Register</a></p>
