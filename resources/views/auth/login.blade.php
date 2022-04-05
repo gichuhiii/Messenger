@@ -16,6 +16,7 @@
                     <input type="text" name="psw" placeholder="Enter Your Password"/>
                     <!-- <label>Upload Profile Picture</label> -->
                     <!-- <input type="file" name="image"> -->
+                    
                     <button>Create Account</button>
                     <p class="message">Already Registered? <a href="#">Login</a></p>
                 </form>
@@ -25,6 +26,8 @@
                     <input type="password" name="psw" placeholder="Enter Password"/>
                     <button>Login</button>
                     <p class="message">Not Registered? <a href="#">Register</a></p>
+
+                    
                 </form>
 
             </div>

@@ -11,7 +11,6 @@
 	background-color:  #1A1A1D;
 	flex: 1;
 	color: white;
-
 }
 #profile-image{
 	width: 80%;
@@ -29,11 +28,9 @@
 	cursor: pointer;
 	padding: 5px;
 	transition: all 1s ease;
-
 }
 #left-panel label:hover{
 	background-color: #6f747c;
-
 }
 #left-panel label img{
 	float: right;
